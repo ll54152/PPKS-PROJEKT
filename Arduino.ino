@@ -14,7 +14,7 @@ char ssid[] = "Wi-FiMreza";   // Naziv Wi-Fi Mreže
 char pass[] = "Lozink";   // Zaporka Wi-Fi Mreže
 
 int status = WL_IDLE_STATUS;   // Status spajanja na Wi-Fi mrežu
-char server[] = "161.53.70.69";   // IP Adresa servera
+char server[] = "192.168.18.29";   // IP Adresa servera
 int port = 4253;   // Port servera
 
 WiFiClient client;  //Instanciramo WiFiClient s kojim ćemo se spajati na server, Wi-Fi mrežu, slati i primati podatke
